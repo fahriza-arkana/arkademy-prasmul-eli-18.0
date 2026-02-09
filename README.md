@@ -1,1 +1,1 @@
-Latihan Odoo18 Prasetya Mulya
+Latihan Odoo18 Prasetiya Mulya
