@@ -1,0 +1,38 @@
+{
+  "folders": [
+    {
+      "path": ".",
+    },
+    {
+      "path": "D:\\repos\\odt\\conf",
+    },
+    {
+      "path": "D:\\repos\\odt\\enterprise",
+    },
+    {
+      "path": "D:\\repos\\odt\\odoo\\odoo18\\addons",
+    },
+  ],
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "latihan_odoo18",
+        "type": "debugpy",
+        "request": "launch",
+        "stopOnEntry": false,
+        "console": "integratedTerminal",
+        "program": "D:\\repos\\odt\\odoo\\odoo18\\odoo-bin",
+        "args": [
+          "--config=D:\\repos\\odt\\conf\\odoo18.conf",
+          "--dev=xml",
+          "--database=odoo-training",
+          "--update=irvan_library",
+        ],
+      },
+    ],
+  },
+  "settings": {
+    "python.defaultInterpreterPath": "D:\\repos\\odt\\venv\\.env-odoo18\\Scripts\\python.exe",
+  },
+}
